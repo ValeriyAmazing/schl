@@ -1,0 +1,22 @@
+.header{
+    padding-left: 40px;
+    background: #0000006c;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    color: rgb(215, 229, 250);
+    box-shadow: 1px 1px 5px 0px black;
+    height: 38px;
+    width: 100%;
+    margin: 0;
+}
+.logo{
+    margin: 3px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 0;
+    line-height: 100%;
+}
+.logo::before{
+    content: '';
+    height: 0;
+}
